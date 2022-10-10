@@ -4,13 +4,43 @@
 /*--------------------------
     prima parte
 --------------------------*/
-
-
+*:not(h2){
+    font-size: 10px;
+}
+h2 {
+    font-size: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+[class*="col-"] {
+    background-color: #006cfa;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.col-6 .row [class*="col-"]{
+    background-color: #00e165;
+    color: white;
+    border: 1px solid #006cfa;
+    text-align: center;
+}
 /*--------------------------
     seconda parte
 --------------------------*/
+.second-section [class*="col-"] {
+    background-color: #006cfa;
+    border: 1px solid white;
+    height: 45px;
+}
 
 
 /*--------------------------
     terza parte
 --------------------------*/
+.third-section [class*="col-"] {
+    background-color: #006cfa;
+    border: 1px solid white;
+    height: 45px;
+}
